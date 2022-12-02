@@ -2,7 +2,7 @@ import java.util.*;
 import java.awt.*;
 import java.applet.*;
 
-public class Background extends Applet{
+public class Background{
 
     public static void drawBackground(Graphics g){
 

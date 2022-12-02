@@ -3,20 +3,20 @@ import java.applet.*;
 
 public class MainPicture extends Applet{
 
-    public static void mainPic(Graphics g){
+    public void paint(Graphics g){
 
-        Background.drawBackground(Graphics g);
+        Background.drawBackground(g);
 
-        Birds.drawBirds(Graphics g);
+        Birds.drawBirds(g);
 
-        Fish.drawBody(Graphics g);
-        Fish.drawEye(Graphics g);
-        Fish.drawScales(Graphics g);
+        Fish.drawBody(g);
+        Fish.drawEye(g);
+        Fish.drawScales(g);
 
-        Boat.drawBoat(Graphics g);
-        Boat.drawMasts(Graphics g);
-        Boat.drawSales(Graphics g);
-        Boat.drawPerson(Graphics g);
+        Boat.drawBoat(g);
+        Boat.drawMasts(g);
+        Boat.drawSales(g);
+        Boat.drawPerson(g);
 
     }
 }
