@@ -22,7 +22,7 @@ public class Boat {
     }
     public static void drawSales(Graphics g){
 
-        g.setColor(Color.white);
+        g.setColor(new Color(245,245,245));
         Polygon sale2 = new Polygon();
         sale2.addPoint(515,100);
         sale2.addPoint(515,250);
