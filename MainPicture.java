@@ -9,14 +9,13 @@ public class MainPicture extends Applet{
 
         Birds.drawBirds(g);
 
-        Fish.drawBody(g);
-        Fish.drawEye(g);
-        Fish.drawScales(g);
-
         Boat.drawBoat(g);
         Boat.drawMasts(g);
         Boat.drawSales(g);
         Boat.drawPerson(g);
 
+        Fish.drawBody(g);
+        Fish.drawFace(g);
+        Fish.drawTail(g);
     }
 }
