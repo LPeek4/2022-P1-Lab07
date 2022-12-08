@@ -24,7 +24,7 @@ public class Fish {
         g.drawArc(535,430,5,35,90,-180);
 
     }
-    public static void drawTail(Graphics g){
+    public static void drawFins(Graphics g){
 
         Polygon tail = new Polygon();
         g.setColor(new Color(110,200,230));
@@ -32,8 +32,15 @@ public class Fish {
         tail.addPoint(315,460);
         tail.addPoint(280,480);
         tail.addPoint(280,420);
-
         g.fillPolygon(tail);
+
+        Polygon topfin = new Polygon();
+        g.setColor(new Color(110,200,230));
+        topfin.addPoint(400,415);
+        topfin.addPoint(385,390);
+        topfin.addPoint(485,390);
+        topfin.addPoint(500,415);
+        g.fillPolygon(topfin);
 
     }
 }

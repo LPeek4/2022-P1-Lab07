@@ -6,8 +6,7 @@ public class MainPicture extends Applet{
     public void paint(Graphics g){
 
         Background.drawBackground(g);
-
-        Birds.drawBirds(g);
+        Background.drawBirds(g);
 
         Boat.drawBoat(g);
         Boat.drawMasts(g);
@@ -16,6 +15,6 @@ public class MainPicture extends Applet{
 
         Fish.drawBody(g);
         Fish.drawFace(g);
-        Fish.drawTail(g);
+        Fish.drawFins(g);
     }
 }
